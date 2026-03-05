@@ -1,0 +1,108 @@
+<div class="{{ include.bg | default: 'bg-primaryLight' }} py-12">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    {% if include.title or include.subtitle %}
+    <div class="text-center mb-10">
+      {% if include.title %}
+      <h2 class="text-2xl md:text-3xl font-bold leading-tight {{ include.titleColor | default: 'text-primary' }}">
+        {{ include.title }}
+      </h2>
+      {% endif %}
+
+      {% if include.subtitle %}
+      <p class="mt-1 text-base md:text-lg leading-snug {{ include.subtitleColor | default: 'text-dark/70' }}">
+        {{ include.subtitle }}
+      </p>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- CAROUSEL -->
+    <div class="relative">
+
+      <!-- Left Button -->
+      <button 
+        onclick="scrollCarousel('{{ include.id }}', -1)"
+        class="absolute left-0 top-1/2 -translate-y-1/2 {{ include.cardBg | default: 'bg-background' }} {{ include.textColor | default: 'text-dark' }} shadow-md p-3 rounded-full hidden md:block z-30"
+      >
+        ‹
+      </button>
+
+      <div class="relative overflow-hidden">
+
+        <!-- Fades -->
+        <div class="absolute left-0 top-0 h-full w-72 bg-gradient-to-r {{ include.fadeFrom | default: 'from-primaryLight' }} to-transparent pointer-events-none z-20"></div>
+        <div class="absolute right-0 top-0 h-full w-72 bg-gradient-to-l {{ include.fadeFrom | default: 'from-primaryLight' }} to-transparent pointer-events-none z-20"></div>
+
+        <!-- Scroll Container -->
+        <div id="{{ include.id }}" 
+        class="auto-carousel flex space-x-8 overflow-x-auto scroll-smooth snap-x snap-mandatory px-[calc(50%-140px)] no-scrollbar relative z-10">
+
+        <!-- CLONES (before) -->
+        {% for person in site.data.speakers.people %}
+        <div class="carousel-item min-w-[280px] snap-center {{ include.cardBg | default: 'bg-background' }} p-6 rounded-2xl shadow-md text-center">
+          {% if person.image %}
+          <img src="{{ person.image }}"
+              alt="{{ person.name }}"
+              class="w-28 h-28 mx-auto rounded-full object-cover mb-5">
+          {% endif %}
+          <h3 class="font-semibold {{ include.textColor | default: 'text-dark' }}">
+            {{ person.name }}
+          </h3>
+          <p class="{{ include.textColor | default: 'text-dark' }}/70 text-sm">
+            {{ person.role }}
+          </p>
+        </div>
+        {% endfor %}
+
+        <!-- ORIGINAL -->
+        {% for person in site.data.speakers.people %}
+        <div class="carousel-item min-w-[280px] {{ include.cardBg | default: 'bg-background' }} p-6 rounded-2xl shadow-md text-center">
+          {% if person.image %}
+          <img src="{{ person.image }}"
+              alt="{{ person.name }}"
+              class="w-28 h-28 mx-auto rounded-full object-cover mb-5">
+          {% endif %}
+          <h3 class="font-semibold {{ include.textColor | default: 'text-dark' }}">
+            {{ person.name }}
+          </h3>
+          <p class="{{ include.textColor | default: 'text-dark' }}/70 text-sm">
+            {{ person.role }}
+          </p>
+        </div>
+        {% endfor %}
+
+        <!-- CLONES (after) -->
+        {% for person in site.data.speakers.people %}
+        <div class="carousel-item min-w-[280px] {{ include.cardBg | default: 'bg-background' }} p-6 rounded-2xl shadow-md text-center">
+          {% if person.image %}
+          <img src="{{ person.image }}"
+              alt="{{ person.name }}"
+              class="w-28 h-28 mx-auto rounded-full object-cover mb-5">
+          {% endif %}
+          <h3 class="font-semibold {{ include.textColor | default: 'text-dark' }}">
+            {{ person.name }}
+          </h3>
+          <p class="{{ include.textColor | default: 'text-dark' }}/70 text-sm">
+            {{ person.role }}
+          </p>
+        </div>
+        {% endfor %}
+
+      </div>
+
+      </div>
+
+      <!-- Right Button -->
+      <button 
+        onclick="scrollCarousel('{{ include.id }}', 1)"
+        class="absolute right-0 top-1/2 -translate-y-1/2 {{ include.cardBg | default: 'bg-background' }} {{ include.textColor | default: 'text-dark' }} shadow-md p-3 rounded-full hidden md:block z-30"
+      >
+        ›
+      </button>
+
+    </div>
+
+  </div>
+</div>

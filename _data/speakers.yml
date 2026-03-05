@@ -1,0 +1,40 @@
+section:
+  title: "Invited Speakers"
+  subtitle: "Meet the speakers presenting at our event!"
+
+people:
+  - name: "Prof. Arne Akbar"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/arne.jpg"
+
+  - name: "Prof. Daniel Gomes"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/danielgomes.webp"
+
+  - name: "Dr. Maria Santos"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/maria.jpg"
+
+  - name: "Prof. Arne Akbar"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/arne.jpg"
+
+  - name: "Prof. Daniel Gomes"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/danielgomes.webp"
+
+  - name: "Dr. Maria Santos"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/maria.jpg"    
+
+  - name: "Prof. Arne Akbar"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/arne.jpg"
+
+  - name: "Prof. Daniel Gomes"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/danielgomes.webp"
+
+  - name: "Dr. Maria Santos"
+    role: "Keynote Speaker"
+    image: "/assets/images/speakers/maria.jpg"

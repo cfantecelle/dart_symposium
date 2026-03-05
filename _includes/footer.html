@@ -1,0 +1,44 @@
+<footer class="bg-dark text-background">
+  <div class="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:pt-12">
+
+    <!-- Back to top button -->
+    <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+      <a 
+        class="inline-block rounded-full bg-background p-2.5 text-dark shadow-sm transition hover:bg-primary hover:text-white"
+        href="/"
+      >
+        <span class="sr-only">Back to top</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
+
+    <div class="lg:flex lg:items-end lg:justify-between">
+      <div>
+        <div class="flex justify-center lg:justify-start" >
+          <img src="../assets/images/logo_text_bg.svg" alt="DART" class="h-12 sm:h-12 md:h-18 lg:h-24 w-auto align-center">
+        </div>
+      </div>
+
+      <ul class="mt-6 flex flex-wrap justify-center gap-4 md:gap-6 lg:mt-0 lg:justify-end lg:gap-8">
+        {% for section in site.data.footer.sections %}
+        <li>
+          <a 
+            class="gradient-text-hover"
+            href="{{ section.url }}"
+          >
+            {{ section.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <p class="mt-6 text-center text-sm text-background/70 lg:text-right">
+      Copyright © 2026. All rights reserved. <br>
+      <small> Created by <a href="https://github.com/cfantecelle" class="gradient-text-hover">Carlos Henrique Fantecelle</a> using Jekyll and free Tailwind blocks from <a href="https://flowbite.com/blocks/" class="gradient-text-hover">Flowbite</a> and <a href="https://www.hyperui.dev/components" class="gradient-text-hover">HyperUI</a>. </small>
+    </p>
+
+  </div>
+</footer>

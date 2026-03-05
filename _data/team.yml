@@ -1,0 +1,52 @@
+section:
+  title: "Organising Committee"
+  subtitle: "Meet the team behind the symposium!"
+
+people:
+  - name: "Daniel Gomes"
+    role: "Lead Organiser"
+    image: "/assets/images/team/danielgomes.webp"
+
+  - name: "Carlos Henrique Fantecelle"
+    role: "Website creator and Lead Coordinator"
+    image: "/assets/images/team/carlos.jpg"
+
+  - name: "Luciana Covre"
+    role: "Scientific Committee"
+    image: "/assets/images/team/luciana.jpg"
+
+  - name: "Paola Lopes"
+    role: "Speakers Liaison"
+    image: "/assets/images/team/paola.jpg"
+
+  - name: "Renan Garcia"
+    role: "Scientific Committee"
+    image: "/assets/images/team/renan.jpg"
+
+  - name: "Isabela V. Sarmento"
+    role: "Organising Committee"
+    image: "/assets/images/team/isabela.jpg"
+
+  - name: "Idália Maria"
+    role: "Communications Committee"
+    image: "/assets/images/team/idalia.jpg"
+
+  - name: "Júlia Fardin"
+    role: "Organising Committee"
+    image: "/assets/images/team/julia_fardin.jpg"
+
+  - name: "Julia Sthefany"
+    role: "Communications Committee"
+    image: "/assets/images/team/julia_sthefany.jpg"
+
+  - name: "Bruna Pimenta"
+    role: "Logistics Committee"
+    image: "/assets/images/team/bruna_pimenta.jpg"
+
+  - name: "Bruna Amorim"
+    role: "Speakers Liaison"
+    image: "/assets/images/team/bruna_amorim.jpg"
+
+  - name: "Roberto Ribeiro"
+    role: "Logistics Committee"
+    image: "/assets/images/team/roberto.jpg"

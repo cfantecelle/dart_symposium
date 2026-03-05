@@ -1,0 +1,9 @@
+sections:
+  - title: "About"
+    url: "/about/"
+  - title: "Registration"
+    url: "/registration/"
+  - title: "Scientific Program"
+    url: "/program/"
+  - title: "Contact"
+    url: "/contact/"

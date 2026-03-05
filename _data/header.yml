@@ -1,0 +1,28 @@
+logo:
+  url: "/"
+  svg: true   # optional if you want later control
+
+menu:
+  - title: Home
+    url: "/"
+
+  - title: "About"
+    url: "/about/"
+  
+  - title: "Invited Speakers"
+    url: "/speakers/"
+
+  - title: "Scientific Program"
+    url: "/program/"
+
+  - title: "Registration"
+    url: "/registration/"
+
+  - title: "Abstracts"
+    url: "/abstracts/"
+
+  - title: "Organising Committee"
+    url: "/committee/"
+
+  - title: "Contact"
+    url: "/contact/"

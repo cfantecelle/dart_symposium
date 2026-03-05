@@ -1,0 +1,54 @@
+{% assign data = site.data[include.source] %}
+
+<section class="bg-background py-16">
+  <div class="mx-auto max-w-7xl px-4 text-center">
+
+    {% if data.section %}
+    <div class="mx-auto mb-12 max-w-2xl">
+      <h2 class="text-4xl font-extrabold tracking-tight text-dark">
+        {{ data.section.title }}
+      </h2>
+      <p class="mt-4 text-lg text-dark/70">
+        {{ data.section.subtitle }}
+      </p>
+    </div>
+    {% endif %}
+
+    <div class="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {% for person in data.people %}
+        <div class="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-xl hover:-translate-y-1">
+
+          <!-- Image / Placeholder -->
+          <div class="mx-auto mb-4 h-36 w-36 rounded-full bg-purple/10 flex items-center justify-center overflow-hidden ring-2 ring-purple/20">
+
+            {% if person.image %}
+              <img 
+                src="{{ person.image | relative_url }}" 
+                alt="{{ person.name }}" 
+                class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                onerror="this.style.display='none'; this.parentNode.innerHTML='<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-16 w-16 text-purple/40&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 24 24&quot;><path d=&quot;M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z&quot;/></svg>'"
+              >
+            {% else %}
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-purple/40" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+              </svg>
+            {% endif %}
+
+          </div>
+
+          <h3 class="text-xl font-semibold text-dark">
+            {{ person.name }}
+          </h3>
+
+          {% if person.role %}
+          <p class="mt-1 text-dark/60">
+            {{ person.role }}
+          </p>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
