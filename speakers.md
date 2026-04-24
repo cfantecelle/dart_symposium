@@ -14,7 +14,7 @@ permalink: /speakers/
 
     <!-- Overview -->
     <p class="mt-6 text-lg leading-relaxed">
-        The <b>Symposium on Dynamics and Research on Tropical Diseases</b> will bring together a diverse group of researchers and professionals working at the forefront of tropical disease research. Invited speakers will present recent advances and perspectives on the dynamics, mechanisms, and control of diseases that continue to impact populations across tropical regions.
+        The <b>Symposium on Immunopathology of Tropical Diseases</b> will bring together a diverse group of researchers and professionals working at the forefront of tropical disease research. Invited speakers will present recent advances and perspectives on the dynamics, mechanisms, and control of diseases that continue to impact populations across tropical regions.
     </p>
 
     <p class="mt-6 text-lg leading-relaxed">

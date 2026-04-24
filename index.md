@@ -5,8 +5,8 @@ title: Home
 hero_side_img: 
   title: "DART" 
   year: "2026" 
-  subtitle: "1st Symposium on Dynamics and Research in Tropical Diseases" 
-  description: "Advancing research on immunopathology, epidemiology and host–pathogen interactions of tropical diseases."
+  subtitle: "1st Symposium on Immunopathology of Tropical Diseases" 
+  description: "Advancing research on immunopathology and host–pathogen interactions of tropical diseases."
 
   primary_button:
     text: "Register Now"
@@ -20,9 +20,9 @@ hero_side_img:
   image_alt: ""
 
 footer: 
-  title: "DART" 
+  title: "SITD" 
   year: "2026"
-  subtitle: "1st Symposium on Dynamics and Research in Tropical Diseases"
+  subtitle: "1st Symposium on Immunopathology of Tropical Diseases"
 ---
 
 {% include hero-side-image.html data=page.hero_side_img %}

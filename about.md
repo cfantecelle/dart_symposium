@@ -12,7 +12,7 @@ permalink: /about/
     </h1>
 
     <p class="mt-6 text-lg leading-relaxed">
-      The <b>Symposium on Dynamics and Research on Tropical Diseases</b> will bring together researchers, clinicians, and public health professionals dedicated to advancing the understanding of diseases that affect tropical and subtropical regions. The event will provide a platform for the exchange of ideas and the presentation of recent findings that contribute to a deeper understanding of the biological, ecological, and social dimensions of tropical diseases.
+      The <b>Symposium on Immunopathology of Tropical Diseases</b> will bring together researchers, clinicians, and public health professionals dedicated to advancing the understanding of diseases that affect tropical and subtropical regions. The event will provide a platform for the exchange of ideas and the presentation of recent findings that contribute to a deeper understanding of the biological, ecological, and social dimensions of tropical diseases.
     </p>
 
     <p class="mt-6 text-lg leading-relaxed">
