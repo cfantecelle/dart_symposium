@@ -554,40 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -602,10 +568,6 @@ video {
 
 .pointer-events-none {
   pointer-events: none;
-}
-
-.fixed {
-  position: fixed;
 }
 
 .absolute {
@@ -704,10 +666,6 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .mt-1 {
@@ -811,14 +769,6 @@ video {
   height: 100vh;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .max-h-20 {
   max-height: 5rem;
 }
@@ -867,17 +817,8 @@ video {
   width: 100vw;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .min-w-\[280px\] {
   min-width: 280px;
-}
-
-.min-w-0 {
-  min-width: 0px;
 }
 
 .max-w-2xl {
@@ -910,14 +851,6 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-
-.shrink {
-  flex-shrink: 1;
 }
 
 .flex-grow {
@@ -959,10 +892,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1045,14 +974,6 @@ video {
 
 .scroll-smooth {
   scroll-behavior: smooth;
-}
-
-.text-ellipsis {
-  text-overflow: ellipsis;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap;
 }
 
 .text-pretty {
@@ -1326,10 +1247,6 @@ video {
   padding-left: 1.25rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1357,10 +1274,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[100cqw\] {
-  font-size: 100cqw;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1379,59 +1292,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[8vw\] {
-  font-size: 8vw;
-}
-
-.text-\[7\.5vw\] {
-  font-size: 7.5vw;
-}
-
-.text-\[3vw\] {
-  font-size: 3vw;
-}
-
-.text-\[2vw\] {
-  font-size: 2vw;
-}
-
-.text-\[2\.5vw\] {
-  font-size: 2.5vw;
-}
-
-.text-\[2\.25vw\] {
-  font-size: 2.25vw;
-}
-
-.text-\[2\.2vw\] {
-  font-size: 2.2vw;
-}
-
-.text-\[2\.3vw\] {
-  font-size: 2.3vw;
-}
-
-.text-\[2\.1vw\] {
-  font-size: 2.1vw;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[4vw\] {
-  font-size: 4vw;
-}
-
-.text-\[2\.55vw\] {
-  font-size: 2.55vw;
-}
-
-.text-\[2\.6vw\] {
-  font-size: 2.6vw;
 }
 
 .font-bold {
@@ -1454,10 +1314,6 @@ video {
   text-transform: uppercase;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
 .leading-relaxed {
   line-height: 1.625;
 }
@@ -1468,10 +1324,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.leading-normal {
-  line-height: 1.5;
 }
 
 .tracking-tight {
@@ -1529,11 +1381,6 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(249 101 91 / var(--tw-text-opacity));
-}
-
-.text-primarySoft {
-  --tw-text-opacity: 1;
-  color: rgb(255 127 106 / var(--tw-text-opacity));
 }
 
 .text-purple\/40 {
@@ -1798,18 +1645,6 @@ html {
     height: 3rem;
   }
 
-  .sm\:h-40 {
-    height: 10rem;
-  }
-
-  .sm\:h-14 {
-    height: 3.5rem;
-  }
-
-  .sm\:h-10 {
-    height: 2.5rem;
-  }
-
   .sm\:h-56 {
     height: 14rem;
   }
@@ -1837,26 +1672,6 @@ html {
     font-size: 1.125rem;
     line-height: 1.625;
   }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1870,18 +1685,6 @@ html {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-52 {
-    height: 13rem;
-  }
-
-  .md\:h-16 {
-    height: 4rem;
-  }
-
-  .md\:h-20 {
-    height: 5rem;
   }
 
   .md\:h-64 {
@@ -1932,16 +1735,6 @@ html {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1951,11 +1744,6 @@ html {
 
   .lg\:top-8 {
     top: 2rem;
-  }
-
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .lg\:mt-0 {
@@ -1974,20 +1762,12 @@ html {
     height: 6rem;
   }
 
-  .lg\:h-64 {
-    height: 16rem;
+  .lg\:h-72 {
+    height: 18rem;
   }
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-20 {
-    height: 5rem;
-  }
-
-  .lg\:h-72 {
-    height: 18rem;
   }
 
   .lg\:grid-cols-4 {
@@ -2034,10 +1814,5 @@ html {
 
   .lg\:text-right {
     text-align: right;
-  }
-
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 }
