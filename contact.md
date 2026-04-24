@@ -38,9 +38,9 @@ permalink: /contact/
           Email
         </h2>
 
-        <a href="mailto:dartsymposium@gmail.com"
+        <a href="mailto:sitdsymposium@gmail.com"
            class="text-lg hover:underline">
-          dartsymposium@gmail.com
+          sitdsymposium@gmail.com
         </a>
 
       </div>
